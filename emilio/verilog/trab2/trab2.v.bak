@@ -1,0 +1,42 @@
+module trab2(
+
+input [0:3] KEY,
+input CLOCK_50,
+output reg [7:0] LEDG
+);
+
+reg d;
+reg [25:0] s;
+
+always @(posedge CLOCK_50) begin
+
+if (KEY[0] == 0) begin
+s <= 0;
+d <= 0;
+LEDG <= 1;
+end
+
+else begin
+
+if (s == 5000000 ) begin
+if (d == 0) begin
+LEDG <= LEDG * 2;
+end
+else begin
+LEDG <= LEDG / 2;
+end
+if (LEDG[6] == 1) d<=1;
+else if (LEDG[1] == 1) d<=0;
+s <= 0;
+end 
+
+else begin
+s <= s + 1;
+end
+
+
+end
+
+end
+
+endmodule
