@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Tue Jun 26 03:28:32 2018
+[*]
+[dumpfile] "/home/douglas/Desktop/public/github/sistemas-digitais/emilio/verilog/trab3/dump.vcd"
+[dumpfile_mtime] "Tue Jun 26 03:27:49 2018"
+[dumpfile_size] 1351
+[savefile] "/home/douglas/Desktop/public/github/sistemas-digitais/emilio/verilog/trab3/a.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-6.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[sst_width] 225
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@421
+test.A.clk
+test.A.clk_result
+test.A.in_a[15:0]
+test.A.in_b[15:0]
+test.A.in_tipo_diag
+test.A.out_result[15:0]
+test.A.out_s2[15:0]
+test.A.out_s[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
